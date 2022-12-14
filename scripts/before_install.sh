@@ -9,3 +9,5 @@ docker build -t spagrawa/apacheci:latest .
 sleep 2
 
 docker push spagrawa/apacheci:latest
+
+sleep 2
