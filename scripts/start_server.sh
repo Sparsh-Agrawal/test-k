@@ -2,6 +2,8 @@
 
 cd /var/tmp/testing/
 
+shopt -s expand_aliases
+
 alias kubectl="minikube kubectl --"
 
 whoami
