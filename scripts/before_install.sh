@@ -2,12 +2,12 @@
 
 cd /var/tmp/testing/
 
-sleep 1
+sleep 5
 
 docker build -t spagrawa/apacheci:latest .
 
-sleep 2
+sleep 5
 
 docker push spagrawa/apacheci:latest
 
-sleep 2
+sleep 5
