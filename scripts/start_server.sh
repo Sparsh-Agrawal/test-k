@@ -6,7 +6,7 @@ alias kubectl="minikube kubectl --"
 
 whoami
 
-kubectl get pods
+minikube kubectl -- get po -A
 
 kubectl delete deployment test
 kubectl create deployment test --image=spagrawa/apacheci:latest
