@@ -2,6 +2,8 @@
 
 cd /var/tmp/testing/
 
+sleep 10
+
 docker build -t spagrawa/apacheci:latest .
 
 sleep 10
